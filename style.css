@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color: white;
+    background: linear-gradient(#a2d2ff,#efb0c9 );
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pic{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 6px solid #efb0c9 ;
+}
+#wish{
+    text-shadow: 0px 0px 1px black ;
+
+}
+.age,.bday{
+    background-color:  #efb0c9 ;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.age{
+    margin: 10px 0;
+}
+
+.bday{
+    margin-top: 0px;
+}
+
+#gift{
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-shadow: 0px 0px 1px black ;
+    margin-bottom: 3px;
+}
+
+.pic2{
+    background-image: url("https://i.pinimg.com/736x/90/2e/74/902e7427213b0a1ba41c097a8e8e0385.jpg");
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#clk{
+    margin-top: 0px;
+    text-shadow: 0px 0px 1px black ;
+}
+.pic2:hover{
+    background-image:url("pic3.png") ;
+}
+
